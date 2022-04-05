@@ -15,9 +15,10 @@ public class Main {
             }
         System.out.println();
         System.out.println(s);
+        Chek(s);
 
 }
-    public void Chek(int s) {
+    public static void Chek(int s) {
         if (s%2 == 0){
             System.out.println("ЧЕТНО");
         } else {
